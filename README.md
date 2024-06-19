@@ -104,11 +104,7 @@ cd $WRKDIR/citation-grouping
 sbatch submit_gpu.sh /path/to/inputfile
 ```
 
-where 
-
-- `inputfile` is a CSV file with column "References"
-
-The optional probability threshold `distance_threshold` (default is 0.05) can be tweaked inside the `submit_gpu.sh` file.
+where `inputfile` is a CSV file with column "References"
 
 Results are written to (check the script output) 
 
@@ -117,6 +113,8 @@ Results are written to (check the script output)
 ```
 
 including the final result file which is the original CSV file with added "References augmented" column and intermediate files.
+
+The optional probability threshold `distance_threshold` (default is 0.05) can be tweaked inside the `submit_gpu.sh` file.
 
 ### Using CPUs only
 
@@ -131,8 +129,6 @@ sbatch submit_cpu.sh /path/to/inputfile
 
 where `inputfile` is a CSV file with column "References".
 
-The optional probability threshold `distance_threshold` (default is 0.05) can be tweaked inside the `submit_cpu.sh` file.
-
 Results are written to (check the script output) 
 
 ```
@@ -140,6 +136,9 @@ Results are written to (check the script output)
 ```
 
 including the final result file which is the original CSV file with added "References augmented" column and intermediate files.
+
+The optional probability threshold `distance_threshold` (default is 0.05) can be tweaked inside the `submit_cpu.sh` file.
+
 
 
 
