@@ -1,0 +1,13 @@
+name: citations
+channels:
+    - nvidia
+    - pytorch
+    - conda-forge
+dependencies:
+    - pytorch
+    - pytorch-cuda
+    - pandas
+    - scikit-learn
+    - pip
+    - pip:
+        - sentence-transformers

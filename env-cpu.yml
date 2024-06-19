@@ -1,0 +1,9 @@
+name: citations
+channels:
+    - conda-forge
+dependencies:
+    - pandas
+    - scikit-learn
+    - pip
+    - pip:
+        - sentence-transformers

@@ -1,0 +1,6 @@
+name: clustering
+channels:
+    - conda-forge
+dependencies:
+    - pandas
+    - scikit-learn

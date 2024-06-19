@@ -1,0 +1,12 @@
+name: sentence_transformers
+channels:
+    - nvidia
+    - pytorch
+    - conda-forge
+dependencies:
+    - pandas
+    - pytorch
+    - pytorch-cuda
+    - pip
+    - pip:
+        - sentence-transformers
